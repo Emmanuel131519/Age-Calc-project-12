@@ -6,8 +6,8 @@ The designs were created to the following widths:
 > 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
 ## Colors
 ### Primary
-- Purple: hsl(259, 100%, 65%)
-- Light red: hsl(0, 100%, 67%)
+- Purple: hsl(259, 100%, 65%);
+- Light-red: hsl(0, 100%, 67%);
 ### Neutral
 - White: hsl(0, 0%, 100%);
 - Off-white: hsl(0, 0%, 94%);
