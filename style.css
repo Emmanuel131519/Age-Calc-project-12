@@ -24,28 +24,39 @@ html,body {
   }
 
 body{
-    background-color: var(--Smokey-grey);
-    font-family: "Poppins", serif;
+    background-color: var(--Light-grey);
+    font-family: "Poppins", sans-serif;
 }
 
 main{
-    width: 70%;
+    width: 50%;
     background-color: var(--White);
-   
     padding: 2.5rem;
-    border-radius: 6px;
-    border-bottom-right-radius: 3rem;
+    border-radius: 1.5rem 1.5rem 9rem 1.5rem;
+    /* border-bottom-right-radius: 3rem; */
 }
 
 .main-div-1{
    padding-top: 1rem;
+   position: relative;
 
 }
-.main-div-1 img{
+
+.img-container{
+    position: absolute;
+    left: 95%;
+    bottom: -15px;
+    display: flex;
+    justify-content: center;
     background-color: var(--Purple);
-    width: 10%;
-    border-radius: 5rem;
+    width: 8%;
+    height: 2rem;
+    border-radius: 100%;
     text-align:end ;
+}
+
+.main-div-1 img{
+   width: 50%;
 }
 
 
@@ -58,7 +69,7 @@ main{
 
 .main-form-1{
     display: flex;
-   gap: 1rem;
+   /* gap:3rem; */
 }
 
 
@@ -68,19 +79,29 @@ span{
 }
 
 h2{
-    color: var(--Light-grey);
+    color: var(--Smokey-grey);
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    padding-bottom: 10px;
 }
 
 input{
 /* margin-left: 5rem; */
-width: 50%;
+width: 65%;
 padding: 1rem;
 font-size: 32px;
 font-weight: 700;
+border-radius: 6px;
+border: 1px solid var(--Light-grey);
 }
 
 @media (max-width: 765px){
 
+main{
+    width: 94%;
+    padding: 1.5rem;
+}
 
    .main-div-2{
    font-size: 1rem;
@@ -91,7 +112,7 @@ font-weight: 700;
    }
 
    input{
-    width: 100%;
+    width: 70%;
     padding: 0;
    }
 }
