@@ -99,7 +99,7 @@ border: 1px solid var(--Light-grey);
 @media (max-width: 765px){
 
 main{
-    height: 25rem;
+    min-height: 25rem;
     width: 94%;
     padding: 1.5rem;
 }
